@@ -36,8 +36,8 @@ import raid_dynamax as raid
 from Vars import Var
 
 PokeDex = Client(
-    api_id=Var.API_ID,
-    api_hash=Var.API_HASH,
+    api_id=Var.ID,
+    api_hash=Var.HASH,
     bot_token=Var.TOKEN,
     session_name='MadBoy482 PokeDex'
 )
