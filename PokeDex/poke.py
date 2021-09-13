@@ -164,7 +164,7 @@ def ptype_buttons(user_id):
     keyboard += ([[
         InlineKeyboardButton('☣️ Poison ☣️',callback_data=f"type_poison_{user_id}"),
         InlineKeyboardButton('⛰ Ground ⛰',callback_data=f"type_ground_{user_id}"),
-        InlineKeyboardButton('Rock',callback_data=f"type_rock_{user_id}")]])
+        InlineKeyboardButton('🧱 Rock 🧱',callback_data=f"type_rock_{user_id}")]])
     keyboard += ([[
         InlineKeyboardButton('🐞 Bug 🐞',callback_data=f"type_bug_{user_id}"),
         InlineKeyboardButton('👁‍🗨 Ghost 👁‍🗨',callback_data=f"type_ghost_{user_id}"),
