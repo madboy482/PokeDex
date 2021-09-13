@@ -550,7 +550,7 @@ def set_page_buttons(page, pages, *args):
     if len(callback_data_list) == 6:
         markup_list.append([
             InlineKeyboardButton(
-                text='🔙 Back to basic infos',
+                text='🔙 Back to Basic Infos',
                 callback_data=callback_data_list[5]
             )
         ])
