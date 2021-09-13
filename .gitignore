@@ -129,6 +129,6 @@ dmypy.json
 .pyre/
 
 # Repo
-src/PokeDex.session
-src/PokeDex.session-journal
+PokeDex/PokeDex.session
+PokeDex/PokeDex.session-journal
 *.session*
