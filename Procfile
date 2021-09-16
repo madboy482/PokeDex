@@ -1,1 +1,1 @@
-worker: python3.9 PokeDex/poke.py
+worker: python3 PokeDex/poke.py
