@@ -1,0 +1,29 @@
+{
+    "name": "PokeDex",
+    "description": "",
+    "keywords": [
+      "PokeDex"
+    ],
+    "repository": "https://github.com/madboy482/PokeDex",
+    "env": {
+      "TOKEN": {
+        "description": "Put your bot token."
+      },
+      "ID": {
+        "description": "Put your api_id."
+      },
+      "HASH": {
+        "description": "Put your api_hash."
+      },
+      "ACCESS": {
+        "description": "Put here list of id's -  (not usernames) for users.",
+        "value": "1674388883"
+      }
+    },
+    "addons": [],
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ]
+  }
