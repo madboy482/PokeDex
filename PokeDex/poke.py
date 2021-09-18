@@ -26,9 +26,7 @@ import re
 import json
 
 from pyrogram import Client, filters as Filters
-from pyrogram import (InlineKeyboardMarkup,
-                      InlineKeyboardButton,
-                      CallbackQuery)
+from pyrogram.types import *
 
 import functions as func
 
