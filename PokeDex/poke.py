@@ -46,9 +46,6 @@ data = json.load(open('PokeDex/poke.json', 'r'))
 stats = json.load(open('PokeDex/stats.json', 'r'))
 ptype = json.load(open('PokeDex/types.json', 'r'))
 
-usage_dict = {'vgc': None}
-raid_dict = {}
-
 
 
 # ===== Stats ===== #
