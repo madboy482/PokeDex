@@ -25,7 +25,7 @@ SOFTWARE.
 import re
 import json
 
-from pyrogram import Client, Filters
+from pyrogram import Client, filters as Filters
 from pyrogram import (InlineKeyboardMarkup,
                       InlineKeyboardButton,
                       CallbackQuery)
