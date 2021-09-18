@@ -31,7 +31,6 @@ from pyrogram import (InlineKeyboardMarkup,
                       CallbackQuery)
 
 import functions as func
-import raid_dynamax as raid
 
 from Vars import Var
 
