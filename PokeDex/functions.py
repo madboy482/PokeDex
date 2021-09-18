@@ -26,7 +26,7 @@ import json
 import re
 import urllib
 
-from pyrogram import InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.types import *
 from bs4 import BeautifulSoup
 
 
